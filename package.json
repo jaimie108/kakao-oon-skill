@@ -1,17 +1,13 @@
 {
-  "name": "kakao_oon",
+  "name": "kakao-oon-skill",
   "version": "1.0.0",
-  "main": "index.js",
+  "type": "module",
+  "engines": { "node": ">=18" },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "dependencies": {
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0",
-    "node-fetch": "^3.3.2"
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5"
   }
 }
